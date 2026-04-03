@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/cs/happytalk-webhook",
+      "dest": "/api/cs/happytalk-webhook.js"
+    },
+    {
+      "src": "/api/cs/status",
+      "dest": "/api/cs/status.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
